@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-// Шаг 1: Базовый класс Animal (Животное)
+// Базовый класс Animal (Животное)
 class Animal {
 public:
     std::string name; // Имя
@@ -15,7 +15,7 @@ public:
     void sleep() {}
 };
 
-// Шаг 2: Наследуемые классы 
+// Наследуемые классы 
 class Bird : public Animal {
 public:
     Bird(std::string name, int age) : Animal(name, age) {}
